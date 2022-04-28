@@ -4,7 +4,8 @@
   "description": "This is my team project",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -12,6 +13,13 @@
   },
   "author": "Preston Hollis",
   "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
   "bugs": {
     "url": "https://github.com/tphollis/team-project/issues"
   },
